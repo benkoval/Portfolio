@@ -47,10 +47,12 @@
         We utilised various technoligies, including <span class='blue'>Django/Python, </span> <span class='green'>Vue/JavaScript, </span> <span class='pink'>Sassy CSS, </span> <span class='purple'>Axios, </span> and more.</p>
 
         <a data-aos="fade-up" target="blank" href="https://github.com/momentum-cohort-2019-05/w7-itunes-search-bennykoval" class='link-txt'>iPreview</a>
+        <div class='pic-container'>    
             <div data-aos="fade-up"
             data-aos-offset="150" 
             data-aos-duration="800"
             class='itunes-pic'></div>
+        </div>
         <p data-aos="fade-up"
         data-aos-offset="100"
         data-aos-duration="500" 
@@ -104,6 +106,8 @@
 <script>
 import { Carousel, Slide } from 'vue-carousel';
 import Calculator from "./Calculator";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default {
   name: 'Projects',
