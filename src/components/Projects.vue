@@ -13,12 +13,6 @@
         data-aos-offset="100"
         data-aos-duration="500" 
         target='blank' class='link-txt' href="https://decidor.herokuapp.com/">DecidOR</a>
-        <!-- <ul class='img-decidor'>
-            <li><div class='first-img'></div></li>
-            <li><div class='sec-img'></div></li>
-            <li><div class='third-img'></div></li>
-            <li><div class='four-img'></div></li>
-        </ul> -->
         <div data-aos="fade-up"
         data-aos-offset="150"
         data-aos-duration="800" 
