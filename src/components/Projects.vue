@@ -1,8 +1,13 @@
 <template>
     <section class='projects-sect' id="projects">
         <h2 data-aos="fade-up"
+        data-aos-duration="500"
+        class='scroll-to-see'>
+        Scroll to see</h2>
+
+        <h2 data-aos="fade-up"
         data-aos-duration="500" 
-        class='projects-head'>Projects in process</h2>
+        class='projects-head'>My projects</h2>
 
         <a data-aos="fade-up" 
         data-aos-offset="100"
@@ -22,6 +27,7 @@
             :scrollPerPage="true"
             :autoplay="true"
             :loop="true"
+            paginationPosition="top"
             perPage=1
             paginationActiveColor="#42b983" 
             paginationColor="#b2ebd1">
@@ -78,6 +84,7 @@
         data-aos-duration="800" 
         class='carousel-container'>
             <carousel class='carousel'
+            paginationPosition="top"
             :scrollPerPage="true"
             :autoplay="true"
             :loop="true"

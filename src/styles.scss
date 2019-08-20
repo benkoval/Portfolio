@@ -114,15 +114,72 @@ a {
     animation-name: gradients;
 }
 
+
+.ghost-smol {
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  font-family: $lato;
+  // align-self: space-around;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  position: relative;
+   -webkit-filter: drop-shadow(0 0 #105ccc);
+  filter: drop-shadow(0 0 #105ccc);
+  &:before {
+    content: '';
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    color: #105ccc;
+    background-color: #fff;
+    z-index:-2;
+    border-radius: 5px;
+  }
+  &:hover, 
+  &:focus-within {
+    color: #105ccc;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    &:before {
+      -webkit-transition: 0.4s all ease;
+      transition: 0.4s all ease;
+      left: 0;
+      right: 0;
+      opacity: 1;
+      border-radius: 3px;
+    }
+  }
+}
+
+.social-container {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  width: 45vw;
+  margin: auto;
+}
+
 .about-head-txt {
     margin: auto;
     font-family: $lex;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4.2rem;
     color: white;
     text-transform: uppercase;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .about-more-txt {
@@ -176,7 +233,7 @@ a {
     font-family: $lato;
     font-size: 3.5rem;
     color: #fff;
-    padding-top: 5%;
+    padding-top: 15%;
     padding-bottom: 5%;
 }
 
@@ -216,15 +273,25 @@ a {
   justify-content: center;
   flex-flow: column wrap;
 }
+
+.scroll-to-see {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  font-family: $lex;
+  font-size: 4rem;
+  color: #3A5BAC;
+  padding-top: 20%;
+}
+
 .projects-head {
   width: 80vw;
   margin: auto;
   text-align: center;
   font-family: $lex;
-  font-size: 4.5rem;
+  font-size: 8rem;
   text-transform: uppercase;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-bottom: 20%;
   background-image: $maingr;
   background-size: 600%;
   background-position: 0 0;
