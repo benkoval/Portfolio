@@ -19,7 +19,7 @@
             :scrollPerPage="true"
             :autoplay="true"
             :loop="true"
-            paginationPosition="bottom-overlay"
+            paginationPosition="bottom"
             perPage=1
             paginationActiveColor="#42b983" 
             paginationColor="#b2ebd1">
@@ -73,7 +73,7 @@
         data-aos-duration="800" 
         class='carousel-container'>
             <carousel class='carousel'
-            paginationPosition="bottom-overlay"
+            paginationPosition="bottom"
             :scrollPerPage="true"
             :autoplay="true"
             :loop="true"
