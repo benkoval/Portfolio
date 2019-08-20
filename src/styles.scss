@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sintony&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
 $lato: 'Lato', sans-serif;
 $lex: 'Lexend Deca', sans-serif;
-$pp-purple: #FF6F61;
-$pp-blue: #D65394;
-$pp-ltblue: #7C59AF;
-$sp-yellow: #3A5BAC;
+$maingr: linear-gradient(to right, #D65394, #7C59AF, #3A5BAC, #FF6F61, #D65394);
+$txtgr: linear-gradient(to right, #7C59AF, #D65394, #3A5BAC);
 
 html {
 	scroll-behavior: smooth;
@@ -23,7 +24,7 @@ a {
 
 .home {
   align-items: center;
-  background-image: linear-gradient(to right, $pp-blue,$pp-ltblue,$sp-yellow,$pp-purple,$pp-blue);
+  background-image: $maingr;
   background-size: 600%;
   background-position: 0 0;
   box-shadow: inset 0 0 5em rgba(0,0,0,.5);
@@ -41,12 +42,12 @@ a {
   flex-direction: column;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-family: $lato;
   align-self: space-around;
-  padding: 8px;
+  padding: 16px;
   color: #fff;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 5px;
   text-align: center;
   outline: none;
@@ -92,7 +93,7 @@ a {
 .title {
     font-family: $lex;
     text-align: center;
-    font-size: 6rem;
+    font-size: 7rem;
     color: white;
     text-transform: uppercase;
 }
@@ -100,21 +101,62 @@ a {
 // about 
 
 #about-me {
-    height: 100vh;
-    background: radial-gradient(#ffdbf4, #f7bce5);
-    width: 100vw;
+    background-image: $maingr;
+    background-size: 600%;
+    background-position: 0 0;
+    box-shadow: inset 0 0 5em rgba(0,0,0,.5);
     display: flex;
-    justify-content: center;
     flex-flow: column wrap;
+    height: 100%;
+    justify-content: center;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-name: gradients;
 }
 
 .about-head-txt {
     margin: auto;
     font-family: $lex;
     text-align: center;
-    font-size: 4rem;
-    color: #402606;
+    font-size: 5rem;
+    color: white;
     text-transform: uppercase;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.about-more-txt {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    margin: auto;
+    width: 80vw;
+    font-family: $lato;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    line-height: 200%;
+}
+
+.about-more-more-txt {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+    width: 80vw;
+    font-family: $lato;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    line-height: 200%;
+}
+
+.list-of-tech {
+  margin: auto;
+  list-style-type: circle;
+  color: #fff;
+  // text-align: center;
+  font-family: $lato;
+  font-size: 2rem;
+  line-height: 200%;
 }
 .pic {
     margin: auto;
@@ -127,16 +169,195 @@ a {
 }
 
 .about-info {
+    margin: auto;
+    width: 80vw;
+    line-height: 200%;
     text-align: center;
     font-family: $lato;
-    font-size: 2rem;
-    color: #402606;
+    font-size: 3.5rem;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#cool-stuff {
+  margin-bottom: 10%;
+}
+// resume 
+
+#resume {
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.placeholder-res {
+  text-align: center;
+  margin: auto;
+  width: 80vw;
+  font-size: 5rem;
+  font-family: $lex;
+  background-image: $maingr;
+  background-size: 600%;
+  background-position: 0 0;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: gradients;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 // projects
 
-#projects {
-    background-color: red;
+.projects-sect {
+  font-family: $lato;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
 }
+.projects-head {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  font-family: $lex;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  background-image: $maingr;
+  background-size: 600%;
+  background-position: 0 0;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: gradients;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link-txt {
+  margin: auto;
+  text-align: center;
+  font-family: $lato;
+  font-size: 4rem;
+  border-bottom: 4px solid #D65394;
+  color: #D65394;
+  margin-bottom: 5%;
+}
+
+.plain-txt {
+  margin: auto;
+  text-align: center;
+  font-family: $lato;
+  font-size: 4rem;
+  color: #D65394;
+  margin-bottom: 5%;
+}
+
+
+
+.first-img {
+  margin: auto;
+  background-image: url('./assets/1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.second-img {
+  margin: auto;
+  background-image: url('./assets/2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.third-img {
+  margin: auto;
+  background-image: url('./assets/3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.fourth-img {
+  margin: auto;
+  background-image: url('./assets/4.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.itunes-pic {
+  margin: auto;
+  background-image: url('./assets/itunes.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 60vw;
+}
+.carousel {
+  width: 60vw;
+  margin: auto;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.proj-description {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+  font-size: 2rem;
+  font-family: $lato;
+  line-height: 200%;
+}
+
+.blue {
+  color: #0927ba;
+}
+
+.green {
+  color: #228B22;
+}
+
+.purple {
+  color: #310f5c;
+}
+
+.pink {
+  color: #9e10a3;
+}
+
+.free-1 {
+  margin: auto;
+  background-image: url('./assets/free-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.free-2 {
+  margin: auto;
+  background-image: url('./assets/free-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
+.free-3 {
+  margin: auto;
+  background-image: url('./assets/free-3.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
 @keyframes gradients {
     0%   {background-position: 0 0;}
     25% {background-position: 50% 0;}
@@ -144,6 +365,116 @@ a {
     60% {background-position: 60%;}
     75% {background-position: 40%;}
     100%  {background-position: 0 0;}
+}
+
+//calculator 
+
+$lb: #3383b5;
+$lbs: #246d9b;
+$db: #086199;
+$dbs: #055080;
+
+
+.wrapper {
+    display: flex;
+    // align-items: center;
+    flex-flow: column wrap;
+    width: 30vw;
+    height: 80vh;
+    margin: auto;
+    // justify-content: center;
+  
+    position: relative;
+  
+    $border: 5px;
+    background-color: #d1d8e3;
+    background-clip: padding-box; 
+    border: solid $border transparent; 
+    border-radius: 1em;
+  
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      z-index: -1;
+      margin: -$border; 
+      border-radius: inherit; 
+      background: linear-gradient(to right, $lb, $dbs);
+    }
+  }
+
+
+.calc-table {
+    // width: 50vw;
+    // margin: auto;
+    display: grid;
+    // grid-row-gap: 5%;
+    // grid-column-gap: 10%;
+    justify-items: center;
+}
+
+.table-row {
+  display: flex;
+}
+
+td {
+  margin: auto;
+  padding: 3vh;
+}
+
+.display-box {
+    font-family: sans-serif;
+    font-size: 3rem;
+    height: 3rem;
+    width: 25vw;
+    // margin: auto;
+    border: none;
+    border-bottom: 1.5px solid $db;
+    background: linear-gradient(to right, $lb, $dbs);
+    color: #FFF;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
+    0px 8px 13px rgba(0,0,0,0.2),
+    0px 18px 23px rgba(0,0,0,0.2);
+}
+
+#operator {
+    background: $db;
+    box-shadow: inset 0 -5px 0 0 $dbs;
+    &:active {
+      transform: translateY(3px);
+      box-shadow: inset 0 -3px 0 0 $dbs;
+      transition: 0.2 ease all;
+    }
+}
+
+.calc-button {
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    outline: none;
+    font-size: 1rem;
+    background: $lb;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.6),
+    0px 8px 13px rgba(0,0,0,0.2),
+    0px 18px 23px rgba(0,0,0,0.2);
+    width: 50px;
+    height: 50px;
+    box-shadow: inset 0 -5px 0 0 $lbs;
+    &:active:not(#operator) {
+      transform: translateY(3px);
+      box-shadow: inset 0 -3px 0 0 $lbs;
+    }
+}
+
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .search-results {
+        flex-wrap: wrap;
+    }
+
+    .gradient-border {
+        width: 80%;
+    }
 }
 
 @media (max-width: 830px) {
