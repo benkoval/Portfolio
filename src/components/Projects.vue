@@ -62,7 +62,7 @@
         <p data-aos="fade-up"
         data-aos-offset="100"
         data-aos-duration="500" 
-        class='proj-description'>For indecisive listeners who just want 30-second snippets of songs.</p>
+        class='proj-description'>iPreview is a <span class='green'>JavaScript</span> project for fast-paced listeners who want only 30-second snippets of songs. I used <span class='purple'>Fetch</span> to retrieve data from the iTunes API.</p>
 
         <h3 data-aos="fade-up"
         data-aos-offset="100"
@@ -77,7 +77,7 @@
     <a data-aos="fade-up" 
         data-aos-offset="100"
         data-aos-duration="500" 
-        target='blank' class='link-txt' href="https://decidor.herokuapp.com/">Freeshelf</a>
+        target='blank' class='link-txt' href="http://freeshelf-benny.herokuapp.com">Freeshelf</a>
 
       <div data-aos="fade-up"
         data-aos-offset="150"
@@ -106,7 +106,7 @@
      <p data-aos="fade-up" 
         data-aos-offset="100"
         data-aos-duration="500" 
-        class='proj-description'>A quick calculator which I initially built in vanilla JavaScript, then reworked into a <span class='green'>Vue component,</span> so that you can make calculations right here. Don't be shy - click some buttons!</p>
+        class='proj-description'>Built in <span class='blue'>Django,</span> Freeshelf is an online collection of free educational resources pertaining to programming. Books are categorised by language or framework; users can favourite books for later reference.</p>
     </section>
 </template>
 
