@@ -10,11 +10,9 @@
         class='projects-head'>My projects</h2>
 
         <a data-aos="fade-up" 
-        data-aos-offset="100"
         data-aos-duration="500" 
         target='blank' class='link-txt' href="https://decidor.herokuapp.com/">DecidOR</a>
         <div data-aos="fade-up"
-        data-aos-offset="150"
         data-aos-duration="800" 
         class='carousel-container'>
             <carousel class='carousel'
@@ -41,7 +39,6 @@
         </div>
 
         <p data-aos="fade-up"
-        data-aos-offset="100" 
         data-aos-duration="500" 
         class='proj-description'>Over the course of two weeks, I collaborated with three of my fellow developers at Momentum Learning to build DecidOR, a web application which helps users handle the overwhelming experience of having too many decisions to make.
         We utilised various technoligies, including <span class='blue'>Django/Python, </span> <span class='green'>Vue/JavaScript, </span> <span class='pink'>Sassy CSS, </span> <span class='purple'>Axios, </span> and more.</p>
@@ -49,27 +46,22 @@
         <a data-aos="fade-up" target="blank" href="https://github.com/momentum-cohort-2019-05/w7-itunes-search-bennykoval" class='link-txt'>iPreview</a>
         <div class='pic-container'>    
             <div data-aos="fade-up"
-            data-aos-offset="150" 
             data-aos-duration="800"
             class='itunes-pic'></div>
         </div>
         <p data-aos="fade-up"
-        data-aos-offset="100"
         data-aos-duration="500" 
         class='proj-description'>iPreview is a <span class='green'>JavaScript</span> project for fast-paced listeners who want only 30-second snippets of songs. I used <span class='purple'>Fetch</span> to retrieve data from the iTunes API.</p>
 
         <h3 data-aos="fade-up"
-        data-aos-offset="100"
         data-aos-duration="500" 
         class='plain-txt'>Calculator</h3>
         <Calculator />
         <p data-aos="fade-up" 
-        data-aos-offset="100"
         data-aos-duration="500" 
         class='proj-description'>A quick calculator which I initially built in vanilla JavaScript, then reworked into a <span class='green'>Vue component,</span> so that you can make calculations right here. Don't be shy - click some buttons!</p>
     
     <a data-aos="fade-up" 
-        data-aos-offset="100"
         data-aos-duration="500" 
         target='blank' class='link-txt' href="http://freeshelf-benny.herokuapp.com">Freeshelf</a>
 
@@ -98,7 +90,6 @@
         </div>
         
      <p data-aos="fade-up" 
-        data-aos-offset="100"
         data-aos-duration="500" 
         class='proj-description'>Built in <span class='blue'>Django,</span> Freeshelf is an online collection of free educational resources pertaining to programming. Books are categorised by language or framework; users can favourite books for later reference.</p>
     </section>

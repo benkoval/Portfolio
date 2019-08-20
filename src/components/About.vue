@@ -25,8 +25,8 @@
     <p 
     data-aos="fade-up" 
     data-aos-duration="500" 
-    class='about-more-txt'>I found my passion for web development as a teenager editing the stylesheet on my Tumblr blog.
-    Today, I work with a variety of technologies, including:</p>
+    class='about-more-txt'>I found my passion for web development as a teenager editing the stylesheet of my hilariously awful Tumblr blog.
+    Today, I work confidently with a variety of technologies, including:</p>
     <ul 
     class='list-of-tech'>
         <li
@@ -63,8 +63,13 @@
     <p 
     data-aos="fade-up" 
     data-aos-duration="500"
-    class='about-more-more-txt'>I'm beyond excited to learn even more new frameworks and languages.</p>
-    
+    class='about-more-more-txt'>I'm beyond excited to learn more new frameworks and languages with which I can build beautiful, intuitive apps.</p>
+
+    <p 
+    data-aos="fade-up" 
+    data-aos-duration="500"
+    class='about-more-more-txt'>When I'm not coding, you might find me reading about obscure historic events, doodling, or playing <a class='link2' target="blank" href='https://riskofraingame.com/'>Risk of Rain,</a> my current obsession.</p>
+
     <a 
     data-aos="fade-up" 
     data-aos-duration="500"
