@@ -281,7 +281,7 @@ a {
   font-family: $lex;
   font-size: 4rem;
   color: #3A5BAC;
-  padding-top: 20%;
+  margin-top: 40vh;
 }
 
 .projects-head {
@@ -291,7 +291,7 @@ a {
   font-family: $lex;
   font-size: 8rem;
   text-transform: uppercase;
-  margin-bottom: 20%;
+  margin-bottom: 40vh;
   background-image: $maingr;
   background-size: 600%;
   background-position: 0 0;
@@ -390,6 +390,16 @@ a {
   width: 80vw;
   margin: auto;
   font-size: 2rem;
+  font-family: $lato;
+  line-height: 200%;
+}
+
+.slide-instructions {
+  color: #9c1006;
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+  font-size: 1.5rem;
   font-family: $lato;
   line-height: 200%;
 }
@@ -566,6 +576,9 @@ td {
     font-size: .8rem;
   }
 
+  .slide-instructions {
+    font-size: 0.8rem;
+  }
   .pic {
     height: 160px;
     width: 160px;
@@ -588,20 +601,20 @@ td {
   }
 
   .scroll-to-see {
-    display: none;
+    font-size: 1rem;
   }
 
   .projects-head {
-    margin-top: 20%;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 
   .link-txt {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #D65394;
   }
 
   .plain-txt {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .proj-description {
@@ -609,23 +622,58 @@ td {
     padding-top: -5%;
   }
 
-  .VueCarousel-wrapper {
-    height: 20vh;
+  .carousel {
+    width: 80vw;
   }
 
+  .carousel-container {
+    width: 100vw;
+  }
+  .VueCarousel-wrapper {
+    height: 30vh;
+  }
+
+  // .VueCarousel-inner {
+  //   margin: auto;
+  // }
+  .first-img {
+    margin: auto;
+    background-size: contain;
+  }
+
+  .second-img {
+    margin: auto;
+    background-size: 100%;
+  }
+
+  .third-img {
+    margin: auto;
+    background-size: 100%;
+  }
+
+  .fourth-img {
+    margin: auto;
+    background-size: 100%;
+  }
+  .pic-container {
+    width: 100vw;
+  }
   .itunes-pic {
-    height: 20vh;
+    height: 30vh;
+    background-size: 100%;
   }
   .wrapper {
-    width: 60%;
+    width: 65%;
   }
 
   .calc-table {
-    width: 30vw;
+    // width: 30%;
+    margin: auto;
   }
 
   .display-box {
-    width: 50vw;
+    width: 60vw;
+    height: 5vh;
   }
 
   td {
@@ -641,7 +689,8 @@ td {
   padding: 15px;
   text-align: center;
   font-family: $lato;
-  font-size: 1rem;
+  font-size: .8rem;
+  line-height: 200%;
 }
 
 .link {

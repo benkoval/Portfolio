@@ -19,7 +19,7 @@
             :scrollPerPage="true"
             :autoplay="true"
             :loop="true"
-            paginationPosition="top"
+            paginationPosition="bottom-overlay"
             perPage=1
             paginationActiveColor="#42b983" 
             paginationColor="#b2ebd1">
@@ -38,6 +38,9 @@
             </carousel>
         </div>
 
+         <p data-aos="fade-up"
+        data-aos-duration="500" 
+        class='slide-instructions'>Hover over an image to pause the slideshow; swipe or drag through at your own speed.</p>
         <p data-aos="fade-up"
         data-aos-duration="500" 
         class='proj-description'>Over the course of two weeks, I collaborated with three of my fellow developers at Momentum Learning to build DecidOR, a web application which helps users handle the overwhelming experience of having too many decisions to make.
@@ -70,7 +73,7 @@
         data-aos-duration="800" 
         class='carousel-container'>
             <carousel class='carousel'
-            paginationPosition="top"
+            paginationPosition="bottom-overlay"
             :scrollPerPage="true"
             :autoplay="true"
             :loop="true"
@@ -88,7 +91,10 @@
                 </slide>
             </carousel>
         </div>
-        
+    <p data-aos="fade-up"
+    data-aos-duration="500" 
+    class='slide-instructions'>Hover over an image to pause the slideshow; swipe or drag through at your own speed.</p>
+
      <p data-aos="fade-up" 
         data-aos-duration="500" 
         class='proj-description'>Built in <span class='blue'>Django,</span> Freeshelf is an online collection of free educational resources pertaining to programming. Books are categorised by language or framework; users can favourite books for later reference.</p>
