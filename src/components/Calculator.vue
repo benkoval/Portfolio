@@ -2,7 +2,7 @@
   <div class="wrapper">
     <table class='calc-table'>
         <th>
-          <td><input 
+          <td><input disabled
           v-on:keyup.enter='evaluateInput()'
           class="display-box" 
           type="clear"></td>
