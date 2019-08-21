@@ -2,9 +2,10 @@
   <div class="wrapper">
     <table class='calc-table'>
         <th>
-          <td><input disabled class="display-box" 
-          type="clear"
-          v-on:keyup.enter='evaluateInput()'></td>
+          <td><input 
+          v-on:keyup.enter='evaluateInput()'
+          class="display-box" 
+          type="clear"></td>
         </th>
         <tr class="table-row">
             <td><button id="operator" class="calc-button show-input">(</button></td>
@@ -69,7 +70,6 @@ export default {
     evalulateInput(display) {
         let displayBox = document.querySelector('.display-box');  
         displayBox.value = math.evaluate(displayBox.value);
-        console.log(math.evalulate(displayBox.value))
         displayBox.focus();
     },
 
