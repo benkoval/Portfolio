@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sintony&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
 $lato: 'Lato', sans-serif;
-$lex: 'Lexend Deca', sans-serif;
+$lex: 'Playfair Display', serif;
 $maingr: linear-gradient(to right, #D65394, #7C59AF, #3A5BAC, #FF6F61, #D65394);
 $txtgr: linear-gradient(to right, #7C59AF, #D65394, #3A5BAC);
 
@@ -177,7 +177,6 @@ a {
     text-align: center;
     font-size: 4.2rem;
     color: white;
-    text-transform: uppercase;
     padding-top: 2%;
     padding-bottom: 2%;
 }
@@ -286,7 +285,7 @@ a {
   width: 80vw;
   margin: auto;
   text-align: center;
-  font-family: $lex;
+  font-family: $lato;
   font-size: 4rem;
   color: #3A5BAC;
   margin-top: 40vh;
@@ -325,8 +324,8 @@ a {
 .plain-txt {
   margin: auto;
   text-align: center;
-  font-family: $lato;
-  font-size: 4rem;
+  font-family: $lex;
+  font-size: 5rem;
   color: #D65394;
   margin-bottom: 5%;
   margin-top: 10%;
