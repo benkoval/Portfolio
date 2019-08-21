@@ -249,11 +249,19 @@ a {
   justify-content: center;
 }
 
+#resume-link {
+  padding-bottom: 20px;
+  background: $maingr
+  no-repeat; 
+  background-size: 100% 5px;
+  background-position: 0 80%;
+  // background-position: 90% 0;
+}
 .placeholder-res {
   text-align: center;
   margin: auto;
   width: 80vw;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: $lex;
   background-image: $maingr;
   background-size: 600%;

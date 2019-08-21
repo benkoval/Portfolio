@@ -1,9 +1,9 @@
 <template>
 <section id='resume'>
-    <h1 
+    <h2
     data-aos="fade-up"
     data-aos-duration="500"
-    class='placeholder-res'>A resume will live here, at some point.</h1>
+    class='placeholder-res'>Check out my resume <a id='resume-link' target='blank' rel='noopener' href='https://drive.google.com/file/d/1jKZtZPUt8QGSOCljzbVTyZ7b8ZbkZD5l/view'>here</a></h2>
 </section>
 </template>
 
