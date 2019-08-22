@@ -91,7 +91,6 @@ a {
     width: 75vw;
 }
 .title {
-    width: 80vw;
     font-family: $lex;
     text-align: center;
     font-size: 7rem;
@@ -809,7 +808,7 @@ path {
 }
 @media (max-width: 830px) {
   .title {
-    font-size: 4.5rem;
+    font-size: 3.8rem;
   }
 
   .ghost {
