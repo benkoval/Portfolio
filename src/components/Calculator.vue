@@ -2,7 +2,7 @@
   <div class="wrapper">
     <table class='calc-table'>
         <th>
-          <td><input disabled
+          <td><input
           v-on:keyup.enter='evaluateInput()'
           class="display-box" 
           type="clear"></td>
@@ -40,7 +40,7 @@
           <td><button id="operator equal" 
           class="calc-button" 
           aria-label="Equal"
-          @click='evalulateInput()'>=</button></td>
+          @click='evaluateInput()'>=</button></td>
           <td><button id="operator" class="calc-button show-input" aria-label="Divide">/</button></td>
         </tr>
     </table>
@@ -53,7 +53,7 @@ export default {
   name: "Calculator",
   mounted() {
    const displayBox = document.querySelector('.display-box')
-   displayBox.focus();
+   displayBox.focus({preventScroll: true});
    this.displayStuff(displayBox);
   },
 
@@ -67,12 +67,11 @@ export default {
             })
           }
        },
-    evalulateInput(display) {
+    evaluateInput() {
         let displayBox = document.querySelector('.display-box');  
         displayBox.value = math.evaluate(displayBox.value);
         displayBox.focus();
     },
-
     clearBox() { 
         let displayBox = document.querySelector('.display-box');  
         displayBox.value = '';

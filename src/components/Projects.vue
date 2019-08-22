@@ -48,7 +48,7 @@
         <p data-aos="fade-up"
         data-aos-duration="500" 
         class='proj-description'>Over the course of two weeks, I collaborated with three of my fellow developers at Momentum Learning to build decidOR, a web application which helps users handle the overwhelming experience of having too many decisions to make.
-        We utilised various technoligies, including <span class='blue'>Django/Python, </span> <span class='green'>Vue/JavaScript, </span> <span class='pink'>Sassy CSS, </span> <span class='purple'>Axios, </span> and more.</p>
+        We utilised various technoligies, including <span class='blue'>Django/Python, </span> <span class='green'>Vue/JavaScript, </span> <span class='pink'>SCSS, </span> <span class='purple'>Axios, </span> and more.</p>
 
         <h3 data-aos="fade-up" class='plain-txt'>iPreview</h3>
         <div class='pic-container'>    
