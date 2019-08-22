@@ -618,6 +618,10 @@ path {
 
 @media (max-width: 768px) and (orientation: portrait) {
 
+  .banner {
+    width: 80vw;
+    height: 15vh;
+  }
   #resume-link {
     background-size: 100% 3px;
     background-position: 0 65%;
