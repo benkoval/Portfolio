@@ -1,47 +1,50 @@
 <template>
-  <div class="wrapper">
+  <div class='wrapper'>
     <table class='calc-table'>
         <th>
+          <label class='all-access' for='calculator-input'>Either type numbers and operators, or use the buttons to make calculations</label>
           <td><input
+          id='calculator-input'
+          name='calculator-input'
           v-on:keyup.enter='evaluateInput()'
-          class="display-box" 
-          type="clear"></td>
+          class='display-box' 
+          type='text'></td>
         </th>
-        <tr class="table-row">
-            <td><button id="operator" class="calc-button show-input">(</button></td>
-            <td><button id="operator" class="calc-button show-input">)</button></td>
-            <td><button id="operator" class="calc-button show-input">%</button></td>
+        <tr class='table-row'>
+            <td><button id='operator' class='calc-button show-input'>(</button></td>
+            <td><button id='operator' class='calc-button show-input'>)</button></td>
+            <td><button id='operator' class='calc-button show-input'>%</button></td>
             <td><button 
-            id="operator" 
-            class="calc-button"
+            id='operator' 
+            class='calc-button'
             @click='clearBox()'>C</button></td>
         </tr>
-        <tr class="table-row">
-          <td><button class="calc-button show-input">7</button></td>
-          <td><button class="calc-button show-input">8</button></td>
-          <td><button class="calc-button show-input">9</button></td>
-          <td><button id="operator" class="calc-button show-input" aria-label="Add">+</button></td>
+        <tr class='table-row'>
+          <td><button class='calc-button show-input'>7</button></td>
+          <td><button class='calc-button show-input'>8</button></td>
+          <td><button class='calc-button show-input'>9</button></td>
+          <td><button id='operator' class='calc-button show-input' aria-label='Add'>+</button></td>
         </tr>
-        <tr class="table-row">
-          <td><button class="calc-button show-input">4</button></td>
-          <td><button class="calc-button show-input">5</button></td>
-          <td><button class="calc-button show-input">6</button></td>
-          <td><button id="operator" class="calc-button show-input" aria-label="Subtract">-</button></td>
+        <tr class='table-row'>
+          <td><button class='calc-button show-input'>4</button></td>
+          <td><button class='calc-button show-input'>5</button></td>
+          <td><button class='calc-button show-input'>6</button></td>
+          <td><button id='operator' class='calc-button show-input' aria-label='Subtract'>-</button></td>
         </tr>
-        <tr class="table-row">
-          <td><button class="calc-button show-input">1</button></td>
-          <td><button class="calc-button show-input">2</button></td>
-          <td><button class="calc-button show-input">3</button></td>
-          <td><button id="operator" class="calc-button show-input" aria-label="Multiply">*</button></td>
+        <tr class='table-row'>
+          <td><button class='calc-button show-input'>1</button></td>
+          <td><button class='calc-button show-input'>2</button></td>
+          <td><button class='calc-button show-input'>3</button></td>
+          <td><button id='operator' class='calc-button show-input' aria-label='Multiply'>*</button></td>
         </tr>
-        <tr class="table-row">
-          <td><button class="calc-button show-input">0</button></td>
-          <td><button class="calc-button show-input">.</button></td>
-          <td><button id="operator equal" 
-          class="calc-button" 
-          aria-label="Equal"
+        <tr class='table-row'>
+          <td><button class='calc-button show-input'>0</button></td>
+          <td><button class='calc-button show-input'>.</button></td>
+          <td><button id='operator equal' 
+          class='calc-button' 
+          aria-label='Equal'
           @click='evaluateInput()'>=</button></td>
-          <td><button id="operator" class="calc-button show-input" aria-label="Divide">/</button></td>
+          <td><button id='operator' class='calc-button show-input' aria-label='Divide'>/</button></td>
         </tr>
     </table>
   </div>
@@ -50,10 +53,9 @@
 <script>
 
 export default {
-  name: "Calculator",
+  name: 'Calculator',
   mounted() {
    const displayBox = document.querySelector('.display-box')
-   displayBox.focus({preventScroll: true});
    this.displayStuff(displayBox);
   },
 

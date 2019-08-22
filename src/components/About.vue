@@ -41,23 +41,34 @@
         <li
         data-aos="fade-up" 
   
-        data-aos-duration="500">Sass</li>
+        data-aos-duration="500">SCSS</li>
         <li
         data-aos="fade-up" 
   
         data-aos-duration="500">JavaScript</li>
+        
+        <li data-aos="fade-up" 
+  
+        data-aos-duration="500">Vue</li>
+
         <li
-        data-aos="fade-up" 
+        data-aos="fade-up"
   
         data-aos-duration="500">Python</li>
         <li
         data-aos="fade-up" 
   
         data-aos-duration="500">Django</li>
+
         <li
         data-aos="fade-up" 
   
-        data-aos-duration="500">Vue</li>
+        data-aos-duration="500">Git</li>
+
+        <li
+        data-aos="fade-up" 
+  
+        data-aos-duration="500">CLI</li>
     </ul>
 
     <p 

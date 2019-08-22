@@ -71,13 +71,30 @@
         <h3 data-aos="fade-up"
         data-aos-duration="500" 
         class='plain-txt'>Calculator</h3>
+        <div
+        data-aos="fade-up" 
+        data-aos-duration="500" 
+        class='banner'>
+            <svg viewBox="0 12 400 200">
+                <path id="curve" d=
+                "M 90,50 
+                C 200,100  
+                500,20  
+                200,30"/>/>
+                <text width="500">
+                    <textPath xlink:href="#curve">
+                    Interactive
+                    </textPath>
+                </text>
+            </svg>
+        </div>
         <Calculator />
 
         <div
         data-aos="fade-up" 
         data-aos-duration="500" 
         id='calc-txt-container' class='code-live-container'>
-            <a class='linky-links' target='blank' rel='noopener' href='https://github.com/bennykoval/Portfolio'>Code</a>
+            <a class='linky-links' target='blank' rel='noopener' href='https://github.com/bennykoval/Portfolio/blob/master/src/components/Calculator.vue'>Code</a>
         </div>
 
         <p data-aos="fade-up" 
