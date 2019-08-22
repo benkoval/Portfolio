@@ -585,6 +585,13 @@ td {
     }
 }
 
+#progress-el {
+  /* progress bar */
+  height: 1vh !important;
+  border-radius: 50px !important;
+  background: $maingr !important;
+}
+
 text {
   text-align: center;
   fill: #fff;
@@ -618,6 +625,9 @@ path {
 
 @media (max-width: 768px) and (orientation: portrait) {
 
+  #progress-el {
+    display: none;
+  }
   .banner {
     width: 80vw;
     height: 15vh;

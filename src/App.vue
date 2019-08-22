@@ -1,5 +1,6 @@
 <template>
   <main role='main'>
+   <VueScrollProgress>
     <div id="app">
       <header>
         <Home/>
@@ -7,7 +8,8 @@
         <Resume/>
         <About/>
         <Projects/>
-    </div>
+     </div>
+    </VueScrollProgress>
   </main>
 </template>
 
