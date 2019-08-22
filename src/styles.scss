@@ -91,6 +91,7 @@ a {
     width: 75vw;
 }
 .title {
+    width: 80vw;
     font-family: $lex;
     text-align: center;
     font-size: 7rem;
@@ -193,6 +194,18 @@ a {
     line-height: 200%;
 }
 
+.about-moar-txt {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    width: 80vw;
+    font-family: $lato;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    line-height: 200%;
+}
+
 .about-more-more-txt {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -237,6 +250,7 @@ a {
 }
 
 #cool-stuff {
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 // resume 
@@ -352,6 +366,9 @@ a {
   margin-top: 3%;
 }
 
+#calc-head {
+  margin-top: 3%;
+}
 .calc-txt-moar {
   margin: auto;
   font-size: 1.5rem;
@@ -625,6 +642,13 @@ path {
 
 @media (max-width: 768px) and (orientation: portrait) {
 
+  #calc-head {
+    margin-top: 8%;
+  }
+  #cool-stuff {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
   #progress-el {
     display: none;
   }

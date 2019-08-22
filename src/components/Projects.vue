@@ -94,7 +94,7 @@
         data-aos="fade-up" 
         data-aos-duration="500" 
         id='calc-txt-container' class='code-live-container'>
-            <a class='linky-links' target='blank' rel='noopener' href='https://github.com/bennykoval/Portfolio/blob/master/src/components/Calculator.vue'>Code</a>
+            <a id='calc-head' class='linky-links' target='blank' rel='noopener' href='https://github.com/bennykoval/Portfolio/blob/master/src/components/Calculator.vue'>Code</a>
         </div>
 
         <p data-aos="fade-up" 
