@@ -18,10 +18,17 @@
         <a href="https://www.linkedin.com/in/benny-koval/" class='ghost-smol' target="blank">LinkedIn</a>
         <a href="mailto:bethanykoval@gmail.com" class='ghost-smol' target="blank">Email</a>
       </div>
+    
+    <a 
+    data-aos="fade-up" 
+    data-aos-duration="500"
+    href='#projects' id="cool-stuff" class='ghost'>Enjoy all the cool stuff I've built</a>
+    
     <h3 
     data-aos="fade-up" 
     data-aos-duration="500" 
     class='about-info'>I'm a full-stack developer seeking new opportunities and thrilling challenges in the Triangle area of North Carolina.</h3>
+    
     <p 
     data-aos="fade-up" 
     data-aos-duration="500" 
@@ -76,15 +83,16 @@
     data-aos-duration="500"
     class='about-more-more-txt'>I'm beyond excited to learn more new frameworks and languages with which I can build beautiful, intuitive apps.</p>
 
+    <a 
+    data-aos="fade-up" 
+    data-aos-duration="500"
+    href='#resume' class='ghost'>My resume</a>
+
     <p 
     data-aos="fade-up" 
     data-aos-duration="500"
     class='about-more-more-txt'>When I'm not coding, you might find me reading about obscure historic events, doodling, or playing <a class='link2' target="blank" href='https://riskofraingame.com/'>Risk of Rain,</a> my current obsession.</p>
 
-    <a 
-    data-aos="fade-up" 
-    data-aos-duration="500"
-    href='#projects' id="cool-stuff" class='ghost'>Enjoy all the cool stuff I've built</a>
 </section>
 </template>
 
