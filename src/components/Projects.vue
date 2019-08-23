@@ -141,7 +141,7 @@
         data-aos-duration="500" 
         class='proj-description'>Built in <span class='blue'>Django,</span> Freeshelf is an online collection of free educational resources pertaining to programming. Books are categorised by language or framework; users can favourite books for later reference.</p>
     
-    <footer>
+    <footer class='footer-container'>
       <h4
         class='footer-txt'>You made it to the end - cheers! Send me a message on <a class='link pink' href="https://www.linkedin.com/in/benny-koval/" target="blank">LinkedIn</a> for a congratulatory cat photo.</h4>
     </footer>

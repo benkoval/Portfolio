@@ -629,6 +629,20 @@ path {
     width: 40vw;
     height: 30vh;
 }
+
+.footer-container {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 15px;
+}
+.footer-txt {
+  margin: auto;
+  max-width: 80vw;
+  text-align: center;
+  font-family: $lato;
+  font-size: 1.1rem;
+  line-height: 200%;
+}
 // Text meant only for screen readers.
 .all-access {
 	clip-path: rect(1px, 1px, 1px, 1px);
@@ -640,12 +654,13 @@ path {
 
 @media (max-width: 768px) and (orientation: portrait) {
 
+
   #calc-head {
     margin-top: 8%;
   }
   #cool-stuff {
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-top: 15%;
+    margin-bottom: 15%;
   }
   #progress-el {
     display: none;
@@ -661,6 +676,7 @@ path {
 
   .linky-links {
     font-size: .8rem;
+    border-bottom: 1px #3A5BAC solid;
   }
   .placeholder-res {
     font-size: 2rem;
@@ -680,7 +696,7 @@ path {
     margin-left: 12%;
     margin-right: 12%;
     padding: 6px;
-    font-size: .8rem;
+    font-size: .5rem;
   }
 
   .slide-instructions {
@@ -693,6 +709,7 @@ path {
 
   .about-info {
     font-size: 1.5rem;
+    padding-top: 0;
   }
 
   .about-more-txt {
@@ -712,7 +729,7 @@ path {
   }
 
   .projects-head {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .link-txt {
@@ -788,13 +805,10 @@ path {
   //   width: 25px;
   //   height: 25px;
   // }
-}
+  .footer-txt {
+  font-size: .7rem;
+  }
 
-.footer-txt {
-  text-align: center;
-  font-family: $lato;
-  font-size: 1rem;
-  line-height: 200%;
 }
 
 .link {
@@ -812,7 +826,8 @@ path {
 
   .ghost {
       margin: auto;
-      font-size: .8rem;
+      font-size: .7rem;
+      padding: 10px;
   }
 }
 
