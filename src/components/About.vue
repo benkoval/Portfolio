@@ -4,6 +4,10 @@
     data-aos="fade-up" 
     data-aos-duration="500" 
     class='about-head-txt'>Hi, I'm Benny.</h2>
+    <h3 
+    data-aos="fade-up" 
+    data-aos-duration="500" 
+    class='under-the-pic-txt'>I'm passionate about building beautiful websites that are intuitive and accessible.</h3>
     <div 
     data-aos="fade-up" 
     data-aos-duration="500" 
@@ -32,7 +36,7 @@
     <p 
     data-aos="fade-up" 
     data-aos-duration="500" 
-    class='about-more-txt'>I found my passion for web development as a teenager editing the stylesheet of my hilariously awful Tumblr blog.
+    class='about-more-txt'>I found my interest for web development as a teenager editing the stylesheet of my hilariously awful Tumblr blog.
     Today, I work confidently with a variety of technologies, including:</p>
     <ul 
     class='list-of-tech'>
@@ -81,7 +85,7 @@
     <p 
     data-aos="fade-up" 
     data-aos-duration="500"
-    class='about-more-more-txt'>I'm beyond excited to learn more new frameworks and languages with which I can build beautiful, intuitive apps.</p>
+    class='about-more-more-txt'>I'm beyond excited to learn more new frameworks and languages, with which I can build even more awesome web apps.</p>
 
     <a 
     data-aos="fade-up" 

@@ -3,7 +3,7 @@
     <h2
     data-aos="fade-up"
     data-aos-duration="500"
-    class='placeholder-res'>Check out my resume <a id='resume-link' target='blank' rel='noopener' href='https://drive.google.com/file/d/1_eiM8ns5HCUAsh60yBgR2_Evv18Umt1k/view?usp=sharing'>here</a></h2>
+    class='placeholder-res'>Check out my resume <a id='resume-link' target='blank' rel='noopener' href='https://drive.google.com/file/d/1fY8yCFVSzb8AIpc2H0LnXV0Pczdg2LLm/view?usp=sharing'>here</a></h2>
 </section>
 </template>
 

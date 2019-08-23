@@ -177,8 +177,8 @@ a {
     text-align: center;
     font-size: 4.2rem;
     color: white;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .about-more-txt {
@@ -191,6 +191,18 @@ a {
     font-size: 3rem;
     color: white;
     line-height: 200%;
+}
+
+.under-the-pic-txt {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  width: 80vw;
+  font-family: $lato;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  line-height: 200%;
 }
 
 .about-moar-txt {
@@ -232,8 +244,8 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
 }
 
 .about-info {
@@ -654,7 +666,10 @@ path {
 
 @media (max-width: 768px) and (orientation: portrait) {
 
-
+  .under-the-pic-txt {
+    font-size: 1rem;
+    padding-bottom: 10%;
+  }
   #calc-head {
     margin-top: 8%;
   }
