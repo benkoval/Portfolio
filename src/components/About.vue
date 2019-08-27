@@ -85,7 +85,7 @@
     <p 
     data-aos="fade-up" 
     data-aos-duration="500"
-    class='about-more-more-txt'>I'm beyond excited to learn more new frameworks and languages, with which I can build even more awesome web apps.</p>
+    class='about-more-more-txt'>I'm so excited to learn more new frameworks and languages, with which I can build even more awesome web apps.</p>
 
     <a 
     data-aos="fade-up" 
